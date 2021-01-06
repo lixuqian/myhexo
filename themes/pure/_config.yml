@@ -47,8 +47,8 @@ comment:
   # livere:
   #   uid: *** # enter livere uid
   gitment:
-    githubID: xuqian.li
-    repo: xuqian.li.github.io
+    githubID: lixuqian
+    repo: lixuqian.github.io
     ClientID: f686d2d597b902bd2b5a
     ClientSecret: 293702b9f7ed84760af6a558a4d6119913ca80ed
     lazy: false
