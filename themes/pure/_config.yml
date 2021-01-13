@@ -25,7 +25,7 @@ menu_icons:
 search:
   insight: true # you need to install `hexo-generator-json-content` before using Insight Search
   swiftype: # enter swiftype install key here
-  baidu: false # you need to disable other search engines to use Baidu search  
+  baidu: true # you need to disable other search engines to use Baidu search  
 # rss
 rss: /atom.xml
 
@@ -82,17 +82,17 @@ site:
     height: 40
     url: ../images/logo.png
   title: Hexo # 页面title
-  favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  favicon: /favicon.jpg
+  board: <p>这里写个公告</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
 config:
-  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin: theme-black # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
-  menu_highlight: false # 是否开启当前菜单高亮显示
-  thumbnail: false # enable posts thumbnail, options: true, false
+  menu_highlight: true # 是否开启当前菜单高亮显示
+  thumbnail: true # enable posts thumbnail, options: true, false
   excerpt_link: Read More
 
 # Pagination
@@ -139,12 +139,6 @@ donate:
     qrcode: images/donate/alipayimg.png 
     title: 支付宝
 
-# Share
-# weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
-# share:
-#   enable: true  # 是否启用分享
-#   sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
-#   mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
 
 # Github
 github: 
@@ -152,8 +146,9 @@ github:
 
 
 
+
 douban:
-  user: # 豆瓣用户名
+  user: 163369144 # 豆瓣用户名
   start: 0 # 从哪一条记录开始
   count: 100 # 获取豆瓣书单数据条数
   
@@ -168,7 +163,7 @@ pv:
         
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
@@ -188,47 +183,48 @@ fb_app_id:
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  avatar: images/avatar.jpg
+  avatar: images/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
+  author: 向上生长
   author_title: Web Developer & Designer
   author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  location: 北京
+  follow: https://github.com/lixuqian
+  
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/lixuqian
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
+      # behance: https://www.behance.net/cofess
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
     Git: ★★★☆☆
-    Gulp: ★★★☆☆
+    # Gulp: ★★★☆☆
     Javascript: ★★★☆☆
     HTML+CSS: ★★★☆☆
     Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    # ThinkPHP: ★★★☆☆
+    # 平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/lixuqian
+    # Blog: http://blog.cofess.com
+    # 微博: http://weibo.com/cofess
+    # 花瓣: http://huaban.com/cofess
+    # Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
     - 前端
     - 前端开发
-    - 前端重构
+    # - 前端重构
     - Web前端
-    - 网页重构
+    # - 网页重构
   # My Personal Works
   works:
     name:
@@ -236,5 +232,5 @@ profile:
       date: 2016
   # My Personal Projects
   projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+    # cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+    # cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
